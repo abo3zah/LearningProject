@@ -8,7 +8,37 @@ GPIO.setup(4, GPIO.OUT)
 print("LED is ON")
 GPIO.output(4, GPIO.HIGH)
 
-time.sleep(1)
+time.sleep(2)
+
+print("LED is off")
+GPIO.output(4, GPIO.LOW)
+
+time.sleep(2)
+
+print("LED is ON")
+GPIO.output(4, GPIO.HIGH)
+
+time.sleep(2)
+
+print("LED is off")
+GPIO.output(4, GPIO.LOW)
+
+time.sleep(2)
+
+print("LED is ON")
+GPIO.output(4, GPIO.HIGH)
+
+time.sleep(2)
+
+print("LED is off")
+GPIO.output(4, GPIO.LOW)
+
+time.sleep(2)
+
+print("LED is ON")
+GPIO.output(4, GPIO.HIGH)
+
+time.sleep(2)
 
 print("LED is off")
 GPIO.output(4, GPIO.LOW)
