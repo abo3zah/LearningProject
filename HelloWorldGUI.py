@@ -25,6 +25,6 @@ my_name = TextBox(app, "Type your name", width=50, grid=[1,0])
 update_text= PushButton(app, command=say_my_name, text="Dispaly your name", grid=[2,0])
 
 # When user tries to close the app
-app.on_close(do_this_on_close)
+app.when_closed =do_this_on_close
 
 app.display()
