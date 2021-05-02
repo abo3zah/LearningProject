@@ -7,10 +7,10 @@ def do_this_on_close():
 
 # setting app the name
 def say_my_name():
-    if my_name.get()=="":
+    if my_name.value=="":
         error("OH No", "Where is your name??")
     else:
-        welcome_message.set(my_name.get())
+        welcome_message.value = my_name.value
 
 #initializing the app
 app = App(title="Hello World", layout="grid")
